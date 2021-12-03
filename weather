@@ -1,0 +1,18 @@
+
+import requests
+
+API_Key ='04b4810e8d5d8ae9cc8094e4f068bc90'
+
+
+
+city=input("Enter a city: ")
+
+
+
+base_url = "http://api.openweathermap.org/data/2.5/weather?appid="+API_Key
+
+
+
+weather_data = requests.get (base_url).json()
+
+pprint(weather_data)
