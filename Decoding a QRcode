@@ -1,0 +1,8 @@
+from pyzbar.pyzbar import decode
+
+from PIL import Image
+
+img=image.open('C:/sneha/new')
+result = decode (img)
+ 
+print (result)
