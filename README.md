@@ -1,18 +1,1 @@
-# python-projects
-various projects using python
-import time
-
-def countdown(t):
-   while t:
-     mins, secs = divmod(t, 60)
-     timer = "{:02d}: {:02d}".format(mins, secs)
-     print (timer, end="\r")
-     time.sleep (1)
-     t -= 1
-   print('Timer completed!')
-
-t = input('Enter the time in seconds: ')
-
-
-
-countdown (int(t))
+i have made various projects using python like timer,random password generator,predicting weather using api in various cities,and QR code encoder and decoder by importing various in-modules of Python. 
